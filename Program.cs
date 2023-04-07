@@ -37,16 +37,7 @@ class Program
             var cki = Console.ReadKey();
             Console.WriteLine(cki.KeyChar.ToString().ToUpper());
             Console.Clear();
-            Draw();
         }
-    }
-
-    static void Draw()
-    {
-        Console.WriteLine("!!!!!!!!!!!!!");
-        Console.WriteLine("!           !");
-        Console.WriteLine("!           !");
-        Console.WriteLine("!!!!!!!!!!!!!");
     }
     public void Proc20()
     {
